@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+section {
+  background-color: rgb(230, 230, 230);
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.h2 {
+  text-align: center;
+}
+.h2 h1{
+    color: #1b1b1d;
+    font-size: 64px;
+}
+.h2 p {
+  margin-top: 20px;
+}
+.cardwrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: 40px 0;
+  padding-bottom: 100px;
+}
+.card{
+  border: 1px solid white;
+  width: 393px;
+  height: 540px;
+  border-radius: 26px;
+  background-color: white;
+  padding: 40px;
+}
+.card:hover{
+    box-shadow: 0 0 15px silver;
+}
+
+
+.icon {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.img {
+  margin-top: 300px;
+}
+.cardwrapper button {
+  margin-top: 60px;
+  width: 225px;
+  height: 40px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-left: 45px;
+  border-radius: 126px;
+}
+.h2 p {
+  margin-bottom: 50px;
+}
+.button {
+  width: 125px;
+  background-color: black;
+  color: aliceblue;
+  height: 40px;
+  border-radius: 126px;
+}
+.wrapper2{
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.content h2{
+    font-weight: 800;
+    font-size: 60px;
+}
+p{
+    font-size: 24px;
+    color: #64646A;
+}
+h4{
+    color: #1b1b1d;
+    font-size: 36px;
+}
